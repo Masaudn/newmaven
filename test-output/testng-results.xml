@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28149" started-at="2022-04-29T07:42:25 IST" finished-at="2022-04-29T07:42:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28149" started-at="2022-04-29T07:42:25 IST" finished-at="2022-04-29T07:42:53 IST">
+      <class name="test.logintest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:test.logintest@2173f6d9]" name="OpenBrowser" is-config="true" duration-ms="19820" started-at="2022-04-29T07:42:25 IST" finished-at="2022-04-29T07:42:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Log()[pri:0, instance:test.logintest@2173f6d9]" name="Log" duration-ms="3150" started-at="2022-04-29T07:42:45 IST" finished-at="2022-04-29T07:42:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:test.logintest@2173f6d9]" name="screenShot" is-config="true" duration-ms="474" started-at="2022-04-29T07:42:48 IST" finished-at="2022-04-29T07:42:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Log status=SUCCESS method=logintest.Log()[pri:0, instance:test.logintest@2173f6d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="homepage()[pri:0, instance:test.logintest@2173f6d9]" name="homepage" duration-ms="1671" started-at="2022-04-29T07:42:49 IST" depends-on-methods="test.logintest.Log" finished-at="2022-04-29T07:42:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:test.logintest@2173f6d9]" name="screenShot" is-config="true" duration-ms="425" started-at="2022-04-29T07:42:51 IST" finished-at="2022-04-29T07:42:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homepage status=SUCCESS method=logintest.homepage()[pri:0, instance:test.logintest@2173f6d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="regularmarket()[pri:0, instance:test.logintest@2173f6d9]" name="regularmarket" duration-ms="1778" started-at="2022-04-29T07:42:51 IST" depends-on-methods="test.logintest.homepage" finished-at="2022-04-29T07:42:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regularmarket -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:test.logintest@2173f6d9]" name="screenShot" is-config="true" duration-ms="364" started-at="2022-04-29T07:42:53 IST" finished-at="2022-04-29T07:42:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=regularmarket status=SUCCESS method=logintest.regularmarket()[pri:0, instance:test.logintest@2173f6d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- test.logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
